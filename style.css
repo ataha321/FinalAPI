@@ -1,0 +1,175 @@
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    float: center;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(90, 206, 199);
+    border-radius: 10px;
+    border: double 8px  brown;
+  }
+  
+  .popup{
+    background-color: #efb7eb;
+    border: dotted 5px rgb(92, 59, 20);
+    padding: 20px;
+    font-family: cursive;
+  }
+  
+  label{
+    color: rgb(84, 46, 26);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cursive;
+  
+  }
+  
+  legend{
+    color: rgb(84, 46, 26);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: cursive;
+  }
+  
+  option{
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: rgb(156, 129, 254);
+    padding: 5px;
+    margin: 10px;
+    color: rgb(87, 33, 33);
+    font-weight: bold;
+    font-family: cursive;
+  }
+  
+  option:hover{
+    background-color: #ffe5a8;
+  }
+  
+  
+  .col{
+      background-color: #ec925a;
+      border-radius: 5px;
+      
+  }
+  
+  .row{
+      border: solid 3px brown;
+  }
+  
+  .bi-chat-heart{
+    font-size: 35px;
+  }
+  
+  span.name , span.age{
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: cursive;
+  }
+  
+  span.breed{
+    font-style: italic;
+    font-size: large;
+  }
+  
+  span.treat{
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+  }
+  
+  span.message{
+    font-size: larger;
+    font-family: cursive;
+  }
+  
+  .container-fuild{
+    border: double 7px brown;
+    background-color: #f5e171;
+    text-align: center;
+    color: #184b42;
+    font-family: cursive;
+  }
+  #dogImg img{
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 5px;
+      border: solid 3px #184b42;
+      box-shadow: 2px;
+  }
+  
+  h2.text-center{
+      font-weight: bold;
+    font-family: cursive;
+  }
+  
+  img.logo{
+      border-radius: 50px;
+  }
+  
+  .d-block{
+    background-color: none;
+  }
+  
+  /* CSS button */
+  .button-74 {
+  background-color: #c5beb6;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  }
+  
+  .button-74:hover {
+  background-color: #e8a6a6;
+  }
+  
+  .button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+  }
+  
+  
+  .container-sm {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #fff;
+    position: relative;
+    border: 3px solid brown;
+    background-color: rgb(250, 224, 188);
+  }
+  
+  .info{
+    width: fit-content;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border:solid 2px  #184b42;
+    background-color: #f9e9c4;
+    font-family: cursive;
+  }
